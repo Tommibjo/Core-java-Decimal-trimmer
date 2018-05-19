@@ -1,4 +1,4 @@
-# Java code Snippets: Decimal trimmer
+# - Java code Snippets: Decimal trimmers -
 
 # public static Object trim(double value):
 After looking for a tenth time how to trim decimals for outputstream - I decided to make this in to it's own static method and save it for later use. This static method approves double values and returns integer or double (with two decimals) depending whether the value dividable with 1 or not.
