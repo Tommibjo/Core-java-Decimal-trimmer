@@ -18,4 +18,11 @@ public class DecimalTrimmer {
             return Math.round(value * 100.0) / 100.0;
         }
     }
+    
+    // All credits for the next method go to jpdymond @ Stackoverflow ( https://stackoverflow.com/users/2984077/jpdymond )  
+    private static double round(double value, int precision) {
+
+        int scale = (int) Math.pow(10, precision);
+        return (double) Math.round(value * scale) / scale;
+    }
 }
