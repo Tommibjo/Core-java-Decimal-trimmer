@@ -1,5 +1,3 @@
-Decimal trimmers algorithms
-
 # can you call these algorithms? 
 I dont know. These methods take input and output wanted result.
 
