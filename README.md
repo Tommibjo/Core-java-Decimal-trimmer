@@ -1,7 +1,7 @@
-# - Java code Snippets: Decimal trimmers -
+Decimal trimmers algorithms
 
-# public static Object trim(double value):
-After looking for a tenth time how to trim decimals for outputstream - I decided to make this in to it's own static method and save it for later use. This static method approves double values and returns integer or double (with two decimals) depending whether the value dividable with 1 or not.
+# can you call these algorithms? 
+I dont know. These methods take input and output wanted result.
 
 # public static double round (double value, int precision)
 All the credits for this goes to jpdymond @ stackoverflow ( https://stackoverflow.com/users/2984077/jpdymond ).
